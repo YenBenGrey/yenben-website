@@ -6,3 +6,10 @@ margin: 0;
 padding: 20px
 }
 
+
+
+p {
+    background-color: #666;
+    color:blue;
+    line-height: 1.6;
+}
