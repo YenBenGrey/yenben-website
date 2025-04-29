@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
