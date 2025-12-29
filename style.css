@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(32, 109, 137);
+  background-color: rgb(102, 32, 137);
 }
 a {
-    color: darkblue;
-    text-decoration: none;
-    cursor: pointer;
+  color: darkblue;
+  text-decoration: none;
+  cursor: pointer;
 }
 a:hover {
-    color:red;
-    text-decoration: underline;
+  color: red;
+  text-decoration: underline;
 }
