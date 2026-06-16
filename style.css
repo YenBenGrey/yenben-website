@@ -1,5 +1,10 @@
+html {
+  min-height: 100%;
+}
+
 body {
-  background-color: rgb(108, 66, 129);
+  min-height: 100vh;
+  background: linear-gradient(175deg, #ff2daa, #7c4dff, #00e5ff);
 }
 a {
   color: darkblue;
@@ -9,4 +14,37 @@ a {
 a:hover {
   color: red;
   text-decoration: underline;
+}
+
+.useful-link {
+  transition: all 250ms ease;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  background-color: darkcyan;
+  color: whitesmoke;
+}
+.useful-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px darkcyan;
+}
+.internal-link {
+  transition: all 0.2s ease;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 19px;
+  margin: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+.internal-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px cornflowerblue;
 }
