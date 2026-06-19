@@ -4,7 +4,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(175deg, #ff2daa, #7c4dff, #00e5ff);
+  background: linear-gradient(85deg, #ff2daa, #7c4dff, #00e5ff);
 }
 a {
   color: darkblue;
@@ -47,4 +47,9 @@ a:hover {
 .internal-link:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px cornflowerblue;
+}
+
+.header-style {
+  font-size: 36px;
+  color: goldenrod;
 }
