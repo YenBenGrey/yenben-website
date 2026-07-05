@@ -11,12 +11,12 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-a:hover {
+nav a:hover {
   color: red;
   text-decoration: underline;
 }
 
-.useful-link {
+.useful-link a {
   transition: all 250ms ease;
   display: inline-block;
   font-size: 22px;
@@ -28,11 +28,11 @@ a:hover {
   background-color: darkcyan;
   color: whitesmoke;
 }
-.useful-link:hover {
+.useful-link a:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px darkcyan;
 }
-.internal-link {
+.internal-link a {
   transition: all 0.2s ease;
   display: inline-block;
   font-size: 22px;
@@ -44,14 +44,17 @@ a:hover {
   background-color: cornflowerblue;
   color: whitesmoke;
 }
-.internal-link:hover {
+.internal-link a:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px cornflowerblue;
 }
 
 .header-style {
-  font-size: 36px;
-  color: goldenrod;
+  font-size: 58px;
+  color: purple;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
 
 .google-search {
@@ -80,4 +83,20 @@ a:hover {
 }
 .google-search button:hover {
   transform: scale(1.1);
+}
+.external-link a {
+  transition: all 0.2s ease;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 19px;
+  margin: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  background-color: plum;
+  color: purple;
+}
+.external-link a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px cornflowerblue;
 }
